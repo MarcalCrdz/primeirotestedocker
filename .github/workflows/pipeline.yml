@@ -33,4 +33,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/todoapi:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}todoapi:latest
